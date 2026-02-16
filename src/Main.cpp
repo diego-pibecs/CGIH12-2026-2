@@ -24,7 +24,7 @@ const GLchar* fragmentShaderSource =
 	"out vec4 color;\n"
 	"void main()\n"
 	"{\n"
-	"color = vec4(1.0f, 0.0f, 0.0f, 0.1f);\n"
+	"color = vec4(1.0f, 0.0f, 0.0f, 1.0f);\n"
 	"}\n\0"
 };
 
@@ -37,7 +37,7 @@ void CrearShader(void);
 
 int main() {
 	glfwInit();
-	//Verificación de compatibilidad 
+	//VerificaciÃ›n de compatibilidad 
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
@@ -50,7 +50,7 @@ int main() {
 
 	glfwGetFramebufferSize(window, &screenWidth, &screenHeight);
 
-	//Verificación de errores de creacion  ventana
+	//VerificaciÃ›n de errores de creacion  ventana
 	if (nullptr == window) 
 	{
 		std::cout << "Failed to create GLFW window" << std::endl;
@@ -62,7 +62,7 @@ int main() {
 	glfwMakeContextCurrent(window);
 	glewExperimental = GL_TRUE;
 
-	//Verificación de errores de inicialización de glew
+	//VerificaciÃ›n de errores de inicializaciÃ›n de glew
 
 	if (GLEW_OK != glewInit()) {
 		std::cout << "Failed to initialise GLEW" << std::endl;
@@ -122,7 +122,9 @@ int main() {
 		glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT);
 
+
 		// Draw our first triangle
+
 		glBindVertexArray(VAO);
 		glDrawArrays(GL_TRIANGLES, 0, 3);
 		glBindVertexArray(0);
@@ -146,7 +148,7 @@ void CrearShader()
 	glCompileShader(vertexShader);
 
 
-	// Verificamos los errores en tiempo de ejecución
+	// Verificamos los errores en tiempo de ejecuciÃ›n
 	GLint success;
 	GLchar infoLog[512];
 
@@ -167,7 +169,7 @@ void CrearShader()
 	glShaderSource(fragmentShader, 1, &fragmentShaderSource, NULL);
 	glCompileShader(fragmentShader);
 
-	// Verificamos los errores en tiempo de ejecución
+	// Verificamos los errores en tiempo de ejecuciÃ›n
 
 	glGetShaderiv(fragmentShader, GL_COMPILE_STATUS, &success);
 

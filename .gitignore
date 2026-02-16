@@ -1,4 +1,46 @@
-.vs
-Debug
-configInicial/Debug
+# Editor / IDE
+.vscode/
+*.code-workspace
+
+# VS Code CMake Tools
+.cmake/
+CMakeUserPresets.json
+cmake-build-*/
+out/build/
+out/install/
+
+# CMake build artifacts
+build/
+[Cc]MakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+
+# Visual Studio user/local files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+ipch/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# Legacy Visual Studio project files (repo now uses CMake as source of truth)
+configCGHI12.sln
+src/*.vcxproj
+src/*.vcxproj.filters
+src/*.vcxproj.user
+src/glew32.dll
+
+# Project-specific output folders
+configInicial/Debug/
 External Libraries/
+
+# macOS
+.DS_Store
