@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/build",
+  "command": "/usr/bin/clang++ -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=c++17 -arch arm64 -F/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks  -o CMakeFiles/main_triangulo.dir/configCGHI12/Main.cpp.o -c /Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/configCGHI12/Main.cpp",
+  "file": "/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/configCGHI12/Main.cpp",
+  "output": "/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/build/CMakeFiles/main_triangulo.dir/configCGHI12/Main.cpp.o"
+},
+{
+  "directory": "/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/build",
+  "command": "/usr/bin/clang++ -DSHADER_DIR=\\\"/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/configCGHI12/Shader\\\" -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=c++17 -arch arm64 -F/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks  -o CMakeFiles/dibujo2d.dir/configCGHI12/Main_Dibujo2D.cpp.o -c /Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/configCGHI12/Main_Dibujo2D.cpp",
+  "file": "/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/configCGHI12/Main_Dibujo2D.cpp",
+  "output": "/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/build/CMakeFiles/dibujo2d.dir/configCGHI12/Main_Dibujo2D.cpp.o"
+},
+{
+  "directory": "/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/build",
+  "command": "/usr/bin/clang++ -DSHADER_DIR=\\\"/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/configCGHI12/Shader\\\" -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=c++17 -arch arm64 -F/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks  -o CMakeFiles/practica2.dir/configCGHI12/Main_P3.cpp.o -c /Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/configCGHI12/Main_P3.cpp",
+  "file": "/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/configCGHI12/Main_P3.cpp",
+  "output": "/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/build/CMakeFiles/practica2.dir/configCGHI12/Main_P3.cpp.o"
+}
+]

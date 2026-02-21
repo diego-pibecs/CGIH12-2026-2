@@ -1,0 +1,9 @@
+# ninja log v7
+0	449	1771564421022332444	CMakeFiles/main_triangulo.dir/configCGHI12/Main.cpp.o	541cdae45a40cadd
+0	488	1771564421022452652	CMakeFiles/dibujo2d.dir/configCGHI12/Main_Dibujo2D.cpp.o	b85cedaa9afa2c41
+488	585	1771564421509966540	bin/dibujo2d	ff6eacdbe93c1fe0
+451	588	1771564421473571924	bin/main_triangulo	e1ac867de3535407
+5	587	1771565443061333395	CMakeFiles/practica2.dir/configCGHI12/Main_P3.cpp.o	dc6d10271a2909ff
+0	679	1771564421022142069	_deps/glm-build/glm/CMakeFiles/glm.dir/detail/glm.cpp.o	e573ee99c64c1f43
+679	1766	1771564421701038305	_deps/glm-build/glm/libglm.a	1bd715d5c852e99d
+587	683	1771565443643783353	bin/practica2	f74485863468ecaf

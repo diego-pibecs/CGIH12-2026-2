@@ -1,0 +1,3 @@
+/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/build/_deps/glm-subbuild/CMakeFiles/glm-populate.dir
+/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/build/_deps/glm-subbuild/CMakeFiles/edit_cache.dir
+/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/build/_deps/glm-subbuild/CMakeFiles/rebuild_cache.dir

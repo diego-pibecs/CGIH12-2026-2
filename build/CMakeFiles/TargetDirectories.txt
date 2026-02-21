@@ -1,0 +1,5 @@
+/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/build/CMakeFiles/main_triangulo.dir
+/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/build/CMakeFiles/dibujo2d.dir
+/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/build/CMakeFiles/practica2.dir
+/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/build/CMakeFiles/edit_cache.dir
+/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/build/CMakeFiles/rebuild_cache.dir

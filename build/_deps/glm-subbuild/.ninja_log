@@ -1,0 +1,21 @@
+# ninja log v7
+0	11	1771564284094683254	glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir	8dcbf2c58c6565bc
+0	11	1771564284094683254	/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir	8dcbf2c58c6565bc
+0	4276	1771564418417440805	glm-populate-prefix/src/glm-populate-stamp/glm-populate-download	a97ea57f2fe2bf78
+0	4276	1771564418417440805	/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-download	a97ea57f2fe2bf78
+4276	4316	1771564418418187845	glm-populate-prefix/src/glm-populate-stamp/glm-populate-update	3805f1a062e0632b
+4276	4316	1771564418418187845	/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-update	3805f1a062e0632b
+4316	4330	1771564418471873625	glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch	6690359e99245caf
+4316	4330	1771564418471873625	/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch	6690359e99245caf
+4330	4344	1771564418486001131	glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure	296d142c96279789
+4330	4344	1771564418486001131	/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure	296d142c96279789
+4345	4356	1771564418498019601	glm-populate-prefix/src/glm-populate-stamp/glm-populate-build	35be4c98d57c6f44
+4345	4356	1771564418498019601	/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-build	35be4c98d57c6f44
+4357	4368	1771564418509611571	glm-populate-prefix/src/glm-populate-stamp/glm-populate-install	54862d1b5a4ed8c1
+4357	4368	1771564418509611571	/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-install	54862d1b5a4ed8c1
+4368	4379	1771564418520438752	glm-populate-prefix/src/glm-populate-stamp/glm-populate-test	ba986c17f24000b2
+4368	4379	1771564418520438752	/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-test	ba986c17f24000b2
+4379	4394	1771564418535627880	CMakeFiles/glm-populate-complete	c142e3385ce5d522
+4379	4394	1771564418535627880	glm-populate-prefix/src/glm-populate-stamp/glm-populate-done	c142e3385ce5d522
+4379	4394	1771564418535627880	/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/build/_deps/glm-subbuild/CMakeFiles/glm-populate-complete	c142e3385ce5d522
+4379	4394	1771564418535627880	/Users/diegoarroyo/Dev/gráfica/CGIH12-2026-2/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-done	c142e3385ce5d522
