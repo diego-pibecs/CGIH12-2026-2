@@ -1,4 +1,5 @@
-#include<iostream>
+#include <iostream>
+#include <string>
 
 //#define GLEW_STATIC
 
@@ -15,16 +16,18 @@ const GLint WIDTH = 800, HEIGHT = 600;
 
 
 int main() {
-	glfwInit();
-	//Verificaci�n de compatibilidad 
-	/*glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
+	if (!glfwInit()) {
+		std::cout << "Failed to initialize GLFW" << std::endl;
+		return EXIT_FAILURE;
+	}
+	// Verificacion de compatibilidad
+	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
-	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_COMPAT_PROFILE);
+	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 	glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
-	glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);*/
+	glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);
 
-	GLFWwindow *window = glfwCreateWindow(WIDTH, HEIGHT, "Dibujo de Primitivas en 2D", NULL, NULL);
-	glfwSetFramebufferSizeCallback(window, resize);
+	GLFWwindow *window = glfwCreateWindow(WIDTH, HEIGHT, "Dibujo de Primitivas en 2D", nullptr, nullptr);
 	
 	//Verificaci�n de errores de creacion  ventana
 	if (window== NULL) 
@@ -34,6 +37,7 @@ int main() {
 
 		return EXIT_FAILURE;
 	}
+	glfwSetFramebufferSizeCallback(window, resize);
 
 	glfwMakeContextCurrent(window);
 	glewExperimental = GL_TRUE;
@@ -55,7 +59,14 @@ int main() {
 	// Define las dimensiones del viewport
 	//glViewport(0, 0, screenWidth, screenHeight);
 
-    Shader ourShader("Shader/core.vs", "Shader/core.frag");
+#ifdef SHADER_DIR
+	const std::string shaderDir = SHADER_DIR;
+#else
+	const std::string shaderDir = "Shader";
+#endif
+	const std::string vertexShaderPath = shaderDir + "/core.vs";
+	const std::string fragmentShaderPath = shaderDir + "/core.frag";
+	Shader ourShader(vertexShaderPath.c_str(), fragmentShaderPath.c_str());
 
 	// Set up vertex data (and buffer(s)) and attribute pointers
 	float vertices[] = {
