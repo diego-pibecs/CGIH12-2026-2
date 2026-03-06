@@ -216,7 +216,7 @@ int main() {
 		
 		for (int i = 0; i < sizeof(transformaciones) / sizeof(float); i+=6)
 		{
-			trasladarEscalar(model, modelLoc, VAO, transformaciones[i], transformaciones[i+1], transformaciones[i+2], transformaciones[i+3], transformaciones[i+4], transformaciones[i+5]);
+			trasladarEscalar(model, modelLoc, VAO, transformaciones[], transformaciones[i+1], transformaciones[i+2], transformaciones[i+3], transformaciones[i+4], transformaciones[i+5]);
 		}
 		
 		
@@ -254,10 +254,10 @@ int main() {
 	return EXIT_SUCCESS;
  }
 
- void trasladarEscalar(glm::mat4 modelo, GLint modelLoc, GLuint VAO, float tX, float tY, float tZ, float eX, float eY, float eZ) {
+ void trasladarEscalar(glm::mat4 modelo, GLint modelLoc, GLuint VAO, float transformacion[], int i) {
 	 modelo = glm::mat4(1.0f);
-	 modelo = glm::translate(modelo, glm::vec3(tX, tY, tZ));
-	 modelo = glm::scale(modelo, glm::vec3(eX, eY, eZ));
+	 modelo = glm::translate(modelo, glm::vec3(transformacion[i], transformacion[i], transformacion[i]));
+	 modelo = glm::scale(modelo, glm::vec3(transformacion[i], transformacion[i], transformacion[i]));
 	 glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(modelo));
 	 glDrawArrays(GL_TRIANGLES, 0, 36);
 	 glBindVertexArray(0);
