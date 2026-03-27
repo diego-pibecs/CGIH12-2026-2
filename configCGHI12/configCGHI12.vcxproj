@@ -24,11 +24,13 @@
     <ClInclude Include="Shader.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Shader\lamp.frag" />
-    <None Include="Shader\lamp.vs" />
+    <ClCompile Include="Iluminacion.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Texturizado.cpp" />
+    <None Include="Shader\lamp.frag" />
+    <None Include="Shader\lamp.vs" />
+    <None Include="Shader\lighting.frag" />
+    <None Include="Shader\lighting.vs" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
